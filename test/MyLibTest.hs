@@ -46,7 +46,7 @@ unsatisfiable :: [Int]
 unsatisfiable = [-1, 2, 3]
 
 satisfiable :: [Int]
-satisfiable = 0 : [5..40]
+satisfiable = 0 : [4..40]
 
 
 satAssertions :: [TestTree]
