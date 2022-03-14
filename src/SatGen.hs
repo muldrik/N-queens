@@ -28,8 +28,7 @@ varToCell gridSize var = ((var - 1) `div` gridSize, (var - 1) `mod` gridSize)
 -- Variable <i,j> is true iff a queen occupies cell (i, j)
 nQueens :: Int -> CNF
 nQueens n | n < 0 = fls
-          | n <= 1 = tru
-          | n <= 4 = fls
+          | n == 0 = tru
           | otherwise = let
               rows = [0..n-1]
               cols = [0..n-1]

@@ -43,7 +43,7 @@ tests = testGroup "Tests"
   ]
 
 unsatisfiable :: [Int]
-unsatisfiable = [-1, 2, 3, 4]
+unsatisfiable = [-1, 2, 3]
 
 satisfiable :: [Int]
 satisfiable = 0 : [5..40]
